@@ -8,7 +8,7 @@ Description: "DHIS2 Metadata: OrganisationUnit"
 * href 0..1 Identifier "Unique URL where the organisation unit is available from" // identifier
 * level 1..1 integer "Level in hiearchy of organisation units" // extension
 * parent 0..1 string "Parent of organisation unit" // partOf
-* leaf 1..1 boolean "Is this is leaf in the organisation unit tree" // extension
+* leaf 1..1 boolean "Is this is a leaf node in the organisation unit tree" // extension
 * name 1..1 string "Name of organisation"
 * shortName 1..1 string "Short name of organisation unit"  // extension
 * description 0..1 string "Description of organisation unit" 
