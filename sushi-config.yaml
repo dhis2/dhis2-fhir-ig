@@ -5,9 +5,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: org.hisp.dhis.fhir
 canonical: https://dhis2.org
-name: Dhis2IG
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+name: dhis2-fhir-ig
+title: DHIS2 Metadata FHIR Implementation Guide
+description: DHIS2 Metadata FHIR Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -18,7 +18,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 publisher:
   name: DHIS2
   url: https://dhis2.org
-  # email: test@example.org
+  email: integration@dhis2.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
