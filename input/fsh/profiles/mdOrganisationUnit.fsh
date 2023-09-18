@@ -24,7 +24,7 @@ Description: "MDOrganisationUnit Location"
 * name 1..1 MS
 * managingOrganization 1..1
 * managingOrganization only Reference(MDOrganisationUnitOrganization)
-* description MS
+* description 0..1 MS
 
 Profile: MDOrganisationUnitOrganization
 Parent: Organization
@@ -46,4 +46,4 @@ Extension: Level
 Id: Level
 Title: "MDOrganisationUnit Hiearchy Level"
 Description: "MDOrganisationUnit Hiearchy Level"
-* value[x] only integer
+* valueInteger 1..1

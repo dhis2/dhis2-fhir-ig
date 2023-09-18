@@ -3,7 +3,7 @@ Extension: ShortName
 Id: ShortName
 Title: "ShortName"
 Description: "ShortName Extension"
-* value[x] only string
+* valueString 1..1 MS
 
 Extension: OrganisationUnitGroup // TODO: Do we need this one? isn't normal identifiers enough?
 Id: OrganisationUnitGroup
