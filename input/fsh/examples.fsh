@@ -1,6 +1,6 @@
 // TODO should probably generate this from a script
 
-Instance: Sierra-Leone-MDOrganisationUnitLocation
+Instance: MDOrganisationUnitLocation-Sierra-Leone
 InstanceOf: MDOrganisationUnitLocation
 * name = "Sierra Leone"
 * identifier[id].system = "http://dhis2.org/identifiertypes#id"
@@ -11,7 +11,7 @@ InstanceOf: MDOrganisationUnitLocation
 * extension[level].valueInteger = 1
 * managingOrganization = Reference(MDOrganisationUnitOrganization/ImspTQPwCqd)
 
-Instance: Sierra-Leone-MDOrganisationUnitOrganization
+Instance: MDOrganisationUnitOrganization-Sierra-Leone
 InstanceOf: MDOrganisationUnitOrganization
 * name = "Sierra Leone"
 // TODO should we have shortName for orgz?
