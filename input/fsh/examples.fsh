@@ -1,19 +1,23 @@
 // TODO should probably generate this from a script
 
-Instance: orgUnit100
+Instance: Sierra-Leone-MDOrganisationUnitLocation
 InstanceOf: MDOrganisationUnitLocation
-* name = "Org Unit 100"
+* name = "Sierra Leone"
 * identifier[id].system = "http://dhis2.org/identifiertypes#id"
-* identifier[=].value = "orgUnit100"
-* extension[shortName].valueString = "Org Unit 100"
+* identifier[=].value = "ImspTQPwCqd"
+* identifier[code].system = "http://dhis2.org/identifiertypes#code"
+* identifier[=].value = "OU_525"
+* extension[shortName].valueString = "Sierra Leone"
 * extension[level].valueInteger = 1
-* managingOrganization = Reference(MDOrganisationUnitOrganization/orgUnit100)
+* managingOrganization = Reference(MDOrganisationUnitOrganization/ImspTQPwCqd)
 
-Instance: orgUnit100Organization
+Instance: Sierra-Leone-MDOrganisationUnitOrganization
 InstanceOf: MDOrganisationUnitOrganization
-* name = "Org Unit 100"
+* name = "Sierra Leone"
 // TODO should we have shortName for orgz?
 // * extension[shortName].valueString = "Org Unit 100"
 * identifier[id].system = "http://dhis2.org/identifiertypes#id"
-* identifier[=].value = "orgUnit100"
-* extension[openingDate].valuePeriod.start = "2020-01-01"
+* identifier[=].value = "ImspTQPwCqd"
+* identifier[code].system = "http://dhis2.org/identifiertypes#code"
+* identifier[=].value = "OU_525"
+* extension[openingDate].valuePeriod.start = "1994-01-01"
