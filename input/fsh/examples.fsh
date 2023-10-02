@@ -9,6 +9,7 @@ InstanceOf: MDOrganisationUnitLocation
 * identifier[=].value = "OU_525"
 * extension[shortName].valueString = "Sierra Leone"
 * extension[level].valueInteger = 1
+* extension[geometry].valueAttachment.data = "eyJ0eXBlIjogIlBvaW50IiwgImNvb3JkaW5hdGVzIjogWy0xMi45NDg3LCA5LjAxMzFdfQ=="
 * managingOrganization = Reference(MDOrganisationUnitOrganization/ImspTQPwCqd)
 
 Instance: MDOrganisationUnitOrganization-Sierra-Leone
