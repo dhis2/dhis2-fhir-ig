@@ -11,7 +11,7 @@ InstanceOf: MDOrganisationUnitLocation
 
 Instance: MDOrganisationUnitOrganization-ImspTQPwCqd
 InstanceOf: MDOrganisationUnitOrganization
-* name = "Sierra Leone not short"
+* name = "Sierra Leone"
 * identifier[id].system = "http://dhis2.org/identifiertypes#id"
 * identifier[=].value = "ImspTQPwCqd"
 * identifier[code].system = "http://dhis2.org/identifiertypes#code"
