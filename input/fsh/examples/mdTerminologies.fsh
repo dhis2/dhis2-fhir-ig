@@ -19,6 +19,7 @@ InstanceOf: MDCodeSystem
 * title.extension[=].extension[+].url = "content"
 * title.extension[=].extension[=].valueString = "Sexo"
 * description = "Gender"
+* valueSet = $valueSet
 * concept[+].code = #MALE
 * concept[=].definition = "Male"
 * concept[=].display = "Male"

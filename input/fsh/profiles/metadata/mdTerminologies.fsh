@@ -14,10 +14,10 @@ Description: "MDCodeSystem"
 * description 0..1 MS
 * url 1..1 MS
 * version 1..1 MS
-// * valueSet 1..1 MS
+* valueSet 1..1 MS
 * status = #active
 * content = #complete
-* experimental = true
+* experimental = false
 * caseSensitive = true
 * extension contains
     AttributeValue named attributeValue 0..* MS
@@ -39,7 +39,7 @@ Description: "MDValueSet"
 * url 1..1 MS
 * version 1..1 MS
 * status = #active
-* experimental = true
+* experimental = false
 * immutable = true
 * extension contains
     AttributeValue named attributeValue 0..* MS
