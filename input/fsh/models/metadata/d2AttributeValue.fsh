@@ -1,7 +1,7 @@
 Logical: D2AttributeValue
 Id: d2-md-attribute-value
-Title: "DHIS2 Metadata: AttributeValue"
-Description: "DHIS2 Metadata: AttributeValue"
+Title: "D2AttributeValue"
+Description: "D2AttributeValue"
 
-* attribute 1..1 Identifier "Attribute UID" // identifier
-* value 1..1 string "Value of attribute" // extension
+* attribute 1..1 Identifier "D2AttributeValue ID" // identifier
+* value 1..1 string "D2AttributeValue Value" // extension

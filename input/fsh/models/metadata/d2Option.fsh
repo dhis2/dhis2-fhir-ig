@@ -1,9 +1,9 @@
 Logical: D2Option
 Id: d2-md-option
-Title: "DHIS2 Metadata: Option"
-Description: "DHIS2 Metadata: Option"
+Title: "D2Option"
+Description: "D2Option"
 
-* id 1..1 Identifier "Unique UID for option" // identifier
+* id 1..1 Identifier "Unique ID for option" // identifier
 * code 0..1 Identifier "Unique CODE for option" // identifier
 * href 0..1 Identifier "Unique URL where the option is available from" // identifier
 * name 1..1 string "Name of option"

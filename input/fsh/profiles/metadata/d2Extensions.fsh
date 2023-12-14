@@ -1,18 +1,18 @@
 
-Extension: ShortName
-Id: ShortName
+Extension: D2ShortName
+Id: D2ShortName
 Title: "D2ShortName"
 Description: "D2ShortName Extension"
 * valueString 1..1 MS
 
-Extension: OrganisationUnitGroup // TODO: Do we need this one? isn't normal identifiers enough?
-Id: OrganisationUnitGroup
+Extension: D2OrganisationUnitGroup // TODO: Do we need this one? isn't normal identifiers enough?
+Id: D2OrganisationUnitGroup
 Title: "D2OrganisationUnitGroup Identifier"
 Description: "D2OrganisationUnitGroup Identifier Extension"
 * value[x] only Identifier
 
-Extension: AttributeValue
-Id: AttributeValue
+Extension: D2AttributeValue
+Id: D2AttributeValue
 Title: "D2AttributeValue"
 Description: "D2AttributeValue Extension"
 * extension contains

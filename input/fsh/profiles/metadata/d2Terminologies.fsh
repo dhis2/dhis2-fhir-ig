@@ -20,7 +20,7 @@ Description: "D2CodeSystem"
 * experimental = false
 * caseSensitive = true
 * extension contains
-    AttributeValue named attributeValue 0..* MS
+    D2AttributeValue named attributeValue 0..* MS
 
 
 Profile: D2ValueSet
@@ -42,4 +42,4 @@ Description: "D2ValueSet"
 * experimental = false
 * immutable = true
 * extension contains
-    AttributeValue named attributeValue 0..* MS
+    D2AttributeValue named attributeValue 0..* MS

@@ -3,7 +3,7 @@
     - Figure out naming of profiles
 */
 
-Profile: D2OrganisationUnitLocation
+Profile: D2Location
 Parent: Location
 Title: "D2OrganisationUnit Location"
 Description: "D2OrganisationUnit Location"
@@ -14,19 +14,19 @@ Description: "D2OrganisationUnit Location"
 * insert IdSlice(href, 0..1)
 
 * extension contains
-    ShortName named shortName 1..1 MS and
-    Level named level 1..1 MS and
-    OrganisationUnitGroup named organisationUnitGroup 0..* MS and
-    AttributeValue named attributeValue 0..* MS and
+    D2ShortName named shortName 1..1 MS and
+    D2Level named level 1..1 MS and
+    D2OrganisationUnitGroup named organisationUnitGroup 0..* MS and
+    D2AttributeValue named attributeValue 0..* MS and
     http://hl7.org/fhir/StructureDefinition/location-boundary-geojson named geometry 0..1 MS
 
 * partOf MS
 * name 1..1 MS
 * managingOrganization 1..1
-* managingOrganization only Reference(D2OrganisationUnitOrganization)
+* managingOrganization only Reference(D2Organization)
 * description 0..1 MS
 
-Profile: D2OrganisationUnitOrganization
+Profile: D2Organization
 Parent: Organization
 Title: "D2OrganisationUnit Organization"
 Description: "D2OrganisationUnit Organization"
@@ -42,8 +42,8 @@ Description: "D2OrganisationUnit Organization"
 
 /* Local Extensions */
 
-Extension: Level
-Id: Level
-Title: "D2OrganisationUnit Hiearchy Level"
-Description: "D2OrganisationUnit Hiearchy Level"
+Extension: D2Level
+Id: D2Level
+Title: "D2OrganisationUnit Hierarchy Level"
+Description: "D2OrganisationUnit Hierarchy Level"
 * valueInteger 1..1
