@@ -2,8 +2,8 @@
 Alias: $codeSystem = https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/codeSystem
 Alias: $valueSet = https://demos.dhis2.org/hmis/api/optionSets/P0RAq93jsi9/valueSet
 
-Instance: MDCodeSystem-P0RAq93jsi9
-InstanceOf: MDCodeSystem
+Instance: D2CodeSystem-P0RAq93jsi9
+InstanceOf: D2CodeSystem
 * meta.lastUpdated = "2022-02-10T15:35:46.309+01:00"
 * identifier[id].system = "http://dhis2.org/identifiertypes#id"
 * identifier[=].value = "P0RAq93jsi9"
@@ -31,8 +31,8 @@ InstanceOf: MDCodeSystem
 * concept[=].designation[+].language = #es
 * concept[=].designation[=].value = "Femenino"
 
-Instance: MDValueSet-P0RAq93jsi9
-InstanceOf: MDValueSet
+Instance: D2ValueSet-P0RAq93jsi9
+InstanceOf: D2ValueSet
 * meta.lastUpdated = "2022-02-10T15:35:46.309+01:00"
 * identifier[id].system = "http://dhis2.org/identifiertypes#id"
 * identifier[=].value = "P0RAq93jsi9"

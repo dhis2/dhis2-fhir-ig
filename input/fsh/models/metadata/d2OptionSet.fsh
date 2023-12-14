@@ -1,4 +1,4 @@
-Logical: MDOptionSet
+Logical: D2OptionSet
 Id: d2-md-option-set
 Title: "DHIS2 Metadata: OptionSet"
 Description: "DHIS2 Metadata: OptionSet"
@@ -9,5 +9,5 @@ Description: "DHIS2 Metadata: OptionSet"
 * name 1..1 string "Name of option set"
 * shortName 1..1 string "Short name of option set" // extensions
 * description 0..1 string "Description of option set"
-* options 0..* MDOption "programs associated with this option set" // extension
-* attributeValues 0..* MDAttributeValue "additional attributes that are in this option set" // extension
+* options 0..* D2Option "programs associated with this option set" // extension
+* attributeValues 0..* D2AttributeValue "additional attributes that are in this option set" // extension

@@ -1,4 +1,4 @@
-Logical: MDOrganisationUnit
+Logical: D2OrganisationUnit
 Id: d2-md-organisation-unit
 Title: "DHIS2 Metadata: OrganisationUnit"
 Description: "DHIS2 Metadata: OrganisationUnit"
@@ -17,4 +17,4 @@ Description: "DHIS2 Metadata: OrganisationUnit"
 * organisationUnitGroups 0..* Identifier "organisation unit groups that contains this organisation unit" // identifier
 * dataSets 0..* Identifier "data sets associated with this organisation unit" // identifier
 * programs 0..* Identifier "programs associated with this organisation unit" // identifier
-* attributeValues 0..* MDAttributeValue "additional attributes that are in this organisation unit"  // extension
+* attributeValues 0..* D2AttributeValue "additional attributes that are in this organisation unit"  // extension

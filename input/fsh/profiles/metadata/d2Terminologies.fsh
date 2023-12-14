@@ -1,8 +1,8 @@
 
-Profile: MDCodeSystem
+Profile: D2CodeSystem
 Parent: CodeSystem
-Title: "MDCodeSystem"
-Description: "MDCodeSystem"
+Title: "D2CodeSystem"
+Description: "D2CodeSystem"
 
 * identifier 1..* MS
 * insert IdSlice(id, 1..1)
@@ -23,10 +23,10 @@ Description: "MDCodeSystem"
     AttributeValue named attributeValue 0..* MS
 
 
-Profile: MDValueSet
+Profile: D2ValueSet
 Parent: ValueSet
-Title: "MDValueSet"
-Description: "MDValueSet"
+Title: "D2ValueSet"
+Description: "D2ValueSet"
 
 * identifier 1..* MS
 * insert IdSlice(id, 1..1)

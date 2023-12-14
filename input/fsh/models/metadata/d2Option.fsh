@@ -1,4 +1,4 @@
-Logical: MDOption
+Logical: D2Option
 Id: d2-md-option
 Title: "DHIS2 Metadata: Option"
 Description: "DHIS2 Metadata: Option"
@@ -9,4 +9,4 @@ Description: "DHIS2 Metadata: Option"
 * name 1..1 string "Name of option"
 * shortName 1..1 string "Short name of option" // extension
 * description 0..1 string "Description of option"
-* attributeValues 0..* MDAttributeValue "additional attributes that are in this option"  // extension
+* attributeValues 0..* D2AttributeValue "additional attributes that are in this option"  // extension

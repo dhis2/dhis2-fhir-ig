@@ -1,24 +1,24 @@
 
 Extension: ShortName
 Id: ShortName
-Title: "ShortName"
-Description: "ShortName Extension"
+Title: "D2ShortName"
+Description: "D2ShortName Extension"
 * valueString 1..1 MS
 
 Extension: OrganisationUnitGroup // TODO: Do we need this one? isn't normal identifiers enough?
 Id: OrganisationUnitGroup
-Title: "MDOrganisationUnitGroup Identifier"
-Description: "MDOrganisationUnitGroup Identifier Extension"
+Title: "D2OrganisationUnitGroup Identifier"
+Description: "D2OrganisationUnitGroup Identifier Extension"
 * value[x] only Identifier
 
 Extension: AttributeValue
 Id: AttributeValue
-Title: "MDAttributeValue"
-Description: "MDAttributeValue Extension"
+Title: "D2AttributeValue"
+Description: "D2AttributeValue Extension"
 * extension contains
     attribute 1..1 MS and
     value 1..1 MS
-* extension[attribute] ^short = "MDAttribute UID"
+* extension[attribute] ^short = "D2AttributeValue ID"
 * extension[attribute].value[x] only Coding
-* extension[value] ^short = "MDAttribute Value"
+* extension[value] ^short = "D2AttributeValue Value"
 * extension[value].value[x] only string

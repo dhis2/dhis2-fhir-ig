@@ -3,10 +3,10 @@
     - Figure out naming of profiles
 */
 
-Profile: MDOrganisationUnitLocation
+Profile: D2OrganisationUnitLocation
 Parent: Location
-Title: "MDOrganisationUnit Location"
-Description: "MDOrganisationUnit Location"
+Title: "D2OrganisationUnit Location"
+Description: "D2OrganisationUnit Location"
 
 * identifier 1..* MS
 * insert IdSlice(id, 1..1)
@@ -23,13 +23,13 @@ Description: "MDOrganisationUnit Location"
 * partOf MS
 * name 1..1 MS
 * managingOrganization 1..1
-* managingOrganization only Reference(MDOrganisationUnitOrganization)
+* managingOrganization only Reference(D2OrganisationUnitOrganization)
 * description 0..1 MS
 
-Profile: MDOrganisationUnitOrganization
+Profile: D2OrganisationUnitOrganization
 Parent: Organization
-Title: "MDOrganisationUnit Organization"
-Description: "MDOrganisationUnit Organization"
+Title: "D2OrganisationUnit Organization"
+Description: "D2OrganisationUnit Organization"
 
 * identifier 1..* MS
 * insert IdSlice(id, 1..1)
@@ -44,6 +44,6 @@ Description: "MDOrganisationUnit Organization"
 
 Extension: Level
 Id: Level
-Title: "MDOrganisationUnit Hiearchy Level"
-Description: "MDOrganisationUnit Hiearchy Level"
+Title: "D2OrganisationUnit Hiearchy Level"
+Description: "D2OrganisationUnit Hiearchy Level"
 * valueInteger 1..1
